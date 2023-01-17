@@ -12,7 +12,7 @@ function TransactionsList({transactions}) {
 
   console.log(transaction)
   return (
-    <table className="ui celled striped padded table">
+    <table className="table1">
       <tbody>
         <tr>
           <th>
