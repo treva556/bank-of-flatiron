@@ -29,7 +29,7 @@ function TransactionsList({transactions}) {
           </th>
         </tr>
         {/* render a list of <Transaction> components here */}
-        
+        {transaction}
       </tbody>
     </table>
   );
