@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("https://vercel.com/treva556/bank-of-flatirons/HUkMggzDNoG6zRADgN7s739kxmPF/transactions", {
+    fetch("http://localhost:3000/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

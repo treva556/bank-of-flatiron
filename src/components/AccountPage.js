@@ -7,7 +7,7 @@ function Container() {
   const [transaction, setTransaction] = useState([])
   const [query, setQuery] = useState("")
   useEffect(() => {
-    fetch("https://vercel.com/treva556/bank-of-flatirons/HUkMggzDNoG6zRADgN7s739kxmPF/transactions?q=" + query)
+    fetch("http://localhost:3000/transactions?q=" + query)
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
   }, [query])
