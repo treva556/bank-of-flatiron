@@ -1,14 +1,14 @@
 
 import React from 'react';
 import Title from './components/Header';
-import AccountContainer from "./components/AccountContainer";
+import Container from './components/AccountPage';
 
 function App() {
   return (
     <center>
        <div className="ui raised segment">
      <Title/>
-      <AccountContainer />
+      <Container />
     </div>
     </center>
    
