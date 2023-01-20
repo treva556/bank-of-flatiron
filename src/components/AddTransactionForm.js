@@ -35,7 +35,8 @@ function AddTransactionForm() {
         </button>
       </form>
     </div>
+  
   );
-}
+  }
 
 export default AddTransactionForm;
